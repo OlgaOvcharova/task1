@@ -1,10 +1,10 @@
 function calc(n) {
     let doubleN = n * 2;
-    
     let result = 1;
 
-    for (let i = n; i <= doubleN; i++)
+    for (let i = n; i <= doubleN; i++){
         result *= i;
+    }
    
     return result;
 }
